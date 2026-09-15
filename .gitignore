@@ -1,0 +1,24 @@
+# Байткод Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Віртуальне середовище
+.venv/
+venv/
+env/
+
+# Дані, що генеруються динамічно (лабораторні роботи)
+labs/**/data/*.csv
+labs/**/data/*.json
+
+# Звіти та кеш Ruff
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Системні файли
+.DS_Store
+Thumbs.db
