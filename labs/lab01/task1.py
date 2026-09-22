@@ -76,7 +76,6 @@ def evaluate_password(password, criteria, forbidden_passwords, all_passwords):
         return "Середній"
     return "Слабкий"
 
-
 def main():
     print(f"Студент: {STUDENT_NAME}, Група: {GROUP_NAME}, Варіант: {VARIANT_NUMBER}")
     print()
