@@ -9,8 +9,7 @@ venv/
 env/
 
 # Дані, що генеруються динамічно (лабораторні роботи)
-labs/**/data/*.csv
-labs/**/data/*.json
+   labs/**/data/
 
 # Звіти та кеш Ruff
 .ruff_cache/
