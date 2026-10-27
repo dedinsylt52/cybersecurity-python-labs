@@ -1,1 +1,6 @@
-ruff
+ruff==0.16.6
+fastapi==0.162.0
+uvicorn==0.54.0
+pydantic==2.14.1
+# Лише для check_api.py (fastapi.testclient)
+httpx==0.28.1

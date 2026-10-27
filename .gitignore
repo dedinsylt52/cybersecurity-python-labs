@@ -21,3 +21,9 @@ env/
 # Системні файли
 .DS_Store
 Thumbs.db
+
+# ЛР №3: робоча база SQLite (seed.json додається до Git)
+labs/lab03/data/*.sqlite3
+labs/lab03/data/*.sqlite3-*
+labs/lab03/data/*.db
+labs/lab03/data/*.db-*
