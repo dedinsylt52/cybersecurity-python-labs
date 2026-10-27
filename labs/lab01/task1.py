@@ -1,11 +1,10 @@
-import sys
-import random
 import os
+import random
 import string
-
+import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
-from shared.student import STUDENT_NAME, GROUP_NAME, VARIANT_NUMBER
+from shared.student import GROUP_NAME, STUDENT_NAME, VARIANT_NUMBER
 
 passwords = [
     "DataS3cur3!",
@@ -75,6 +74,7 @@ def evaluate_password(password, criteria, forbidden_passwords, all_passwords):
     if passed_count > 1:
         return "Середній"
     return "Слабкий"
+
 
 def main():
     print(f"Студент: {STUDENT_NAME}, Група: {GROUP_NAME}, Варіант: {VARIANT_NUMBER}")
