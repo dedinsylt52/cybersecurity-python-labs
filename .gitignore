@@ -9,7 +9,10 @@ venv/
 env/
 
 # Дані, що генеруються динамічно (лабораторні роботи)
-   labs/**/data/
+labs/**/data/*
+# Вхідні дані, без яких лабораторну не відтворити
+!labs/lab02/data/data_v05/
+!labs/lab03/data/seed.json
 
 # Звіти та кеш Ruff
 .ruff_cache/
